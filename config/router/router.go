@@ -7,6 +7,6 @@ func Init(r *gin.Engine) {
 
 	api := r.Group(pre)
 	{
-		postRouterInit(api)
+		msgRouterInit(api)
 	}
 }
